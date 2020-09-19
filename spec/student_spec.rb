@@ -11,7 +11,7 @@ describe "Student" do
     it "has a first name" do 
       student.first_name = "steve"
       expect(student.first_name).to eq("jobs")
-    endl
+    end
   end
 
   describe "#last_name" do 
