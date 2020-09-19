@@ -9,15 +9,15 @@ describe "Student" do
   
   describe "#first_name" do 
     it "has a first name" do 
-      student.first_name = "Steve"
-      expect(student.first_name).to eq("Steve")
+      student.first_name = "jim"
+      expect(student.first_name).to eq("carrey")
     end
   end
 
   describe "#last_name" do 
     it "has a last name" do 
-      student.last_name = "Jobs"
-      expect(student.last_name).to eq("Jobs")
+      student.last_name = "carrey"
+      expect(student.last_name).to eq("carrey")
     end
   end
 
