@@ -10,7 +10,7 @@ describe "Student" do
   describe "#first_name" do 
     it "has a first name" do 
       student.first_name = "Steve"
-      expect(student.first_name).to eq("Jobs")
+      expect(student.first_name).to eq("Steve")
     end
   end
 
